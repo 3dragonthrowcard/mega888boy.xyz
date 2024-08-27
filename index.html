@@ -3,10 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Megaaxyz</title>
+    <title>Home Page</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Home</h1>
+    <h1>Kelvin Home Page</h1>
+    <a href="./login/index.html">Login</a>
+    <a href="./register/index.html">Register</a>
+
+    <!-- Display 2 games -->
+  
+     <div class="game-container">
+        <!-- Game 16 -->
+        <div class="game" onclick="launchGame(16,'https://cdn-icons-png.flaticon.com/512/3367/3367593.png')">
+            <a href="./current-game/index.html">
+                <img src="https://cdn-icons-png.flaticon.com/512/3367/3367593.png" alt="">
+                <p><b>PRAGMATIC</b></p>
+            </a>
+        </div>
+
+        <!-- Game 6 -->
+        <div class="game" onclick="launchGame(6,'https://cdn-icons-png.flaticon.com/512/2731/2731275.png')">
+            <a href="./current-game/index.html">
+                <img src="https://cdn-icons-png.flaticon.com/512/2731/2731275.png" alt="">
+                <p><b>MEGA</b></p>
+            </a>
+        </div>
+     </div>
     
+     <script src="script.js"></script>
 </body>
 </html>

@@ -1,0 +1,33 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+    /*width: 100px;
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    margin: 20px;
+    border-radius: 50px;
+    text-decoration: none;*/
+}
+
+.game-container{
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+}
+
+.game{
+    border: solid;
+    width: 200px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.game> a> img{
+    width: 100px;
+}
+
